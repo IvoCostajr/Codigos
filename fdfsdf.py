@@ -1,0 +1,9 @@
+almoço=44.50
+imposto=0.065
+gorjeta=0.15
+totalmo=almoço*imposto
+tudo=almoço+totalmo
+total2=tudo*gorjeta
+fsfsaf=tudo+total2
+print(fsfsaf)
+print(total2)

@@ -1,0 +1,43 @@
+def calculaEstacionamento(veiculo,horas,minutos):
+    if(veiculo=="carro" or veiculo=="Carro"):
+        if(horas<=5):
+            valor=3
+            return valor
+        else:
+            if(minutos==0):
+                valor1=3*horas
+                return valor1
+            else:
+                cac=horas-5
+                ca2=cac*2
+                mi=2
+                vtotal=(3+ca2)+mi
+                return vtotal
+    else:
+        if(horas<=5):
+            valor2=3/2
+            return valor2
+        else:
+            if(minutos==0):
+                valor3=3*horas
+                valor4=valor3/2
+                return valor4
+            else:
+                cac1=horas-5
+                ca3=cac1*2
+                mi2=2
+                vtotal1=(3+ca3)+mi2
+                vtotal2=vtotal1/2
+                return vtotal2
+print(calculaEstacionamento("carro",4,0))
+print(calculaEstacionamento("moto",3,47))
+print(calculaEstacionamento("carro",6,20))
+print(calculaEstacionamento("Moto",7,38))
+                
+                
+                    
+                
+                
+                
+                
+    
